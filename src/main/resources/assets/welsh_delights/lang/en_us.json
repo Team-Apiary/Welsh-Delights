@@ -1,5 +1,9 @@
 {
   "itemGroup.welsh_delights": "Welsh Delights",
-  "block.welsh_delights.example_block": "Example Block",
-  "item.welsh_delights.example_item": "Example Item"
+
+  "block.welsh_delights.leek_crate": "Leek Crate",
+  "block.welsh_delights.wild_leeks": "Wild Leek",
+  "block.welsh_delights.leek_crop": "Leek",
+
+  "item.welsh_delights.cawl": "Cawl"
 }
