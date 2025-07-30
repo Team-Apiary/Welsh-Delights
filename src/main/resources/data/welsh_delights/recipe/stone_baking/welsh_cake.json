@@ -1,0 +1,23 @@
+{
+  "type": "welsh_delights:stone_baking",
+  "experience": 1.0,
+  "ingredients": [
+    {
+      "item": "farmersdelight:dough"
+    },
+    {
+      "item": "farmersdelight:dough"
+    },
+    {
+      "tag": "welsh_delights:welsh_cake_fruits"
+    },
+    {
+      "tag": "welsh_delights:welsh_cake_fruits"
+    }
+  ],
+  "recipe_book_tab": "welsh_cakes",
+  "result": {
+    "count": 4,
+    "id": "welsh_delights:welsh_cake"
+  }
+}
