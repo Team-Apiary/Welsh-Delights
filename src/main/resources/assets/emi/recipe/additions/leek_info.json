@@ -1,0 +1,8 @@
+{
+  "type": "emi:info",
+  "stacks": [
+    "item:welsh_delights:wild_leeks",
+    "item:welsh_delights:leek"
+  ],
+  "text": "welsh_delights.emi.info.leek"
+}
