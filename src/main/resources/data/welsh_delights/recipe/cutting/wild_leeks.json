@@ -1,0 +1,32 @@
+{
+  "type": "farmersdelight:cutting",
+  "ingredients": [
+    {
+      "item": "welsh_delights:wild_leeks"
+    }
+  ],
+  "result": [
+    {
+      "item": {
+        "count": 1,
+        "id": "welsh_delights:leek"
+      }
+    },
+    {
+      "item": {
+        "count": 2,
+        "id": "minecraft:light_gray_dye"
+      }
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "count": 1,
+        "id": "minecraft:lime_dye"
+      }
+    }
+  ],
+  "tool": {
+    "tag": "c:tools/knife"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "welsh_delights:wild_leeks"
+    }
+  ],
+  "results": [
+    {
+      "id": "minecraft:light_gray_dye",
+      "count": 1
+    },
+    {
+      "id": "minecraft:light_gray_dye",
+      "count": 3,
+      "chance": 0.2
+    },
+    {
+      "id": "minecraft:lime_dye",
+      "count": 1,
+      "chance": 0.1
+    }
+  ],
+  "processingTime": 50
+}

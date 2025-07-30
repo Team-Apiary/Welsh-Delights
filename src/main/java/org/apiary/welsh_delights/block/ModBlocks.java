@@ -13,6 +13,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredItem;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.apiary.welsh_delights.block.custom.LeekBlock;
+import org.apiary.welsh_delights.item.ModFoodValues;
 import org.apiary.welsh_delights.item.ModItems;
 import org.apiary.welsh_delights.main.WelshDelights;
 import vectorwing.farmersdelight.common.block.WildCropBlock;
@@ -27,10 +28,10 @@ public class ModBlocks {
     public static final DeferredHolder<Block, WildCropBlock> WILD_LEEKS =
             BLOCKS.register("wild_leeks", () -> new WildCropBlock(MobEffects.FIRE_RESISTANCE, 6,BlockBehaviour.Properties.ofFullCopy(Blocks.TALL_GRASS).mapColor(MapColor.COLOR_GREEN)));
     public static final DeferredHolder<Block, LeekBlock> LEEK_CROP =
-            BLOCKS.register("leek_crop", () -> new LeekBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).mapColor(MapColor.COLOR_GREEN)));
+            BLOCKS.register("leeks", () -> new LeekBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.WHEAT).mapColor(MapColor.COLOR_GREEN)));
 
     //Block Items
     public static final DeferredItem<BlockItem> LEEK_CRATE_ITEM = ModItems.ITEMS.registerSimpleBlockItem("leek_crate", LEEK_CRATE);
     public static final DeferredItem<BlockItem> WILD_LEEKS_ITEM = ModItems.ITEMS.registerSimpleBlockItem("wild_leeks", WILD_LEEKS);
-    public static final DeferredItem<BlockItem> LEEK = ModItems.ITEMS.registerSimpleBlockItem("leek", LEEK_CROP, new Item.Properties().food(new FoodProperties.Builder().alwaysEdible().nutrition(2).saturationModifier(0.4f).build()));
+    public static final DeferredItem<BlockItem> LEEK = ModItems.ITEMS.registerSimpleBlockItem("leek", LEEK_CROP, new Item.Properties().food(ModFoodValues.LEEK));
 }

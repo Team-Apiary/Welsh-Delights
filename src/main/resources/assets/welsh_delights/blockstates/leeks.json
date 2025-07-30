@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "welsh_delights:block/leeks_stage0"
+    },
+    "age=1": {
+      "model": "welsh_delights:block/leeks_stage0"
+    },
+    "age=2": {
+      "model": "welsh_delights:block/leeks_stage1"
+    },
+    "age=3": {
+      "model": "welsh_delights:block/leeks_stage1"
+    },
+    "age=4": {
+      "model": "welsh_delights:block/leeks_stage2"
+    },
+    "age=5": {
+      "model": "welsh_delights:block/leeks_stage2"
+    },
+    "age=6": {
+      "model": "welsh_delights:block/leeks_stage2"
+    },
+    "age=7": {
+      "model": "welsh_delights:block/leeks_stage3"
+    }
+  }
+}
