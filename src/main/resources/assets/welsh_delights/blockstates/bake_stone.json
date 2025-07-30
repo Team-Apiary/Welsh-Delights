@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "welsh_delights:block/bake_stone"
+    },
+    "facing=east": {
+      "model": "welsh_delights:block/bake_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "welsh_delights:block/bake_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "welsh_delights:block/bake_stone",
+      "y": 270
+    }
+  }
+}

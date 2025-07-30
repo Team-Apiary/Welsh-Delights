@@ -12,6 +12,7 @@ import vectorwing.farmersdelight.common.item.ConsumableItem;
 
 import static vectorwing.farmersdelight.common.FoodValues.comfort;
 import static vectorwing.farmersdelight.common.registry.ModItems.bowlFoodItem;
+import static vectorwing.farmersdelight.common.registry.ModItems.foodItem;
 
 public class ModItems {
     //Register
@@ -19,4 +20,7 @@ public class ModItems {
 
     //Items
     public static final DeferredHolder<Item, ConsumableItem> CAWL = ITEMS.register("cawl", () -> new ConsumableItem(bowlFoodItem(ModFoodValues.CAWL), true));
+    public static final DeferredItem<Item> OGGIE = ITEMS.register("oggie", () -> new Item(foodItem(ModFoodValues.OGGIE)));
+    public static final DeferredItem<Item> LAVERBREAD = ITEMS.register("laverbread", () -> new Item(foodItem(ModFoodValues.LAVERBREAD)));
+    public static final DeferredHolder<Item, ConsumableItem> WELSH_BREAKFAST = ITEMS.register("welsh_breakfast", () -> new ConsumableItem(bowlFoodItem(ModFoodValues.WELSH_BREAKFAST), true));
 }
